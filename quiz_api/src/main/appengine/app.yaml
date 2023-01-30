@@ -1,0 +1,5 @@
+runtime : java17
+env: flex
+runtime_config:  # Optional
+  jdk: adoptopenjdk
+entrypoint: java -Xmx64m -jar /app/build/libs/quiz_api-0.0.1.jar -Dloader.main=com.tim..quiz_api.QuizApiApplicationKt
